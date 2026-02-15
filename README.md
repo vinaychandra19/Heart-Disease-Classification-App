@@ -2,7 +2,7 @@
 To build an end-to-end machine learning classification pipeline to predict the likelihood of heart disease in patients based on clinical features, and deploy this as an interactive web application.
 
 ### b. Dataset description
-The Heart Failure Prediction dataset contains 918 observations and 12 clinical features (including Age, Sex, Cholesterol, RestingBP, etc.). It is a binary classification problem where the target variable is `HeartDisease`.
+The [Heart Failure Prediction dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) (Kaggle) contains 918 observations and 12 clinical features (including Age, Sex, Cholesterol, RestingBP, etc.). It is a binary classification problem where the target variable is `HeartDisease`.
 
 ### c. Models used
 | Model               |   Accuracy |    AUC |   Precision |   Recall |     F1 |    MCC |
@@ -14,7 +14,7 @@ The Heart Failure Prediction dataset contains 918 observations and 12 clinical f
 | Random Forest       |     0.8804 | 0.9419 |      0.8972 |   0.8972 | 0.8972 | 0.7543 |
 | XGBoost             |     0.8696 | 0.9366 |      0.9192 |   0.8505 | 0.8835 | 0.7387 |
 
-### Observations
+### d. Observations
 | ML Model Name | Observation about model performance |
 | :--- | :--- |
 | Logistic Regression | Performed well as a baseline model with an accuracy of 84.78% and AUC of 0.90, indicating the dataset has a reasonable degree of linear separability. |
